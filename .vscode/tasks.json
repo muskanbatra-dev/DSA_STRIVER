@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build & Run DSA",
+      "type": "shell",
+      "command": "bash",
+      "args": [
+        "-c",
+        "cd /Users/muskanbatra/Desktop/DSA_STRIVER/Setup && g++ -std=c++17 demo.cpp -o demo && ./demo < input.txt > output.txt"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}
