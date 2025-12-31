@@ -7,7 +7,7 @@
       "command": "bash",
       "args": [
         "-c",
-        "cd /Users/muskanbatra/Desktop/DSA_STRIVER/Setup && g++ -std=c++17 demo.cpp -o demo && ./demo < input.txt > output.txt"
+        "cd \"${workspaceFolder}/2:Learn C++\" && g++ -std=c++17 demo.cpp -o demo && ./demo < input.txt > output.txt"
       ],
       "group": {
         "kind": "build",
